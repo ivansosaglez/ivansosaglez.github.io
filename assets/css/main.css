@@ -4103,3 +4103,25 @@ input, select, textarea {
 					}
 
 	}
+
+	.technology-img{
+		margin-top: 10px;
+	}
+	.technology-img.html5{
+    	width: 5em;
+	}
+	.technology-img.css3{
+    	width: 3.5em;
+	}
+	.technology-img.jquery,
+	.technology-img.php{
+    	width: 5em;
+	}
+	.technology-img.wp{
+		margin-top: 20px;
+		width: 4em;
+	}
+	.technology-img.react{
+		margin-top: 23px;
+    	width: 5em;
+	}
