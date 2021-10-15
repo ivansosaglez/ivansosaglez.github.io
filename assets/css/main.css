@@ -3530,7 +3530,28 @@ input, select, textarea {
 		padding: 6em 0;
 		text-align: center;
 	}
-
+		#footer .contact-me{
+			margin: 0px 10px 0px 10px;
+		}
+		#footer .contact-me-block:hover{
+			color: #e44c65;
+		}
+		.landing #footer .icons li:hover .icon.fa-twitter:before{
+			color: #1DA1F2 !important;
+		}
+		.landing #footer .icons li:hover .icon.fa-linkedin-in:before{
+			color: #0077b5 !important;
+		}
+		.landing #footer .icons li:hover .icon.fa-instagram:before{
+			color: #C13584 !important;
+		}
+		.landing #footer .icons li:hover .icon.fa-github:before{
+			color: #333 !important;
+		}
+		.landing #footer .icons li:hover .icon.fa-envelope:before{
+			color: #FFFFFF !important;
+		}
+		
 		#footer .icons .icon.alt {
 			text-decoration: none;
 		}
