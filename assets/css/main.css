@@ -2474,6 +2474,12 @@ input, select, textarea {
 			text-align: center;
 			width: 6em;
 		}
+		.icon.major.mywork {
+			background: none;
+			display: initial;
+			margin: initial;
+			cursor: inherit;
+		}
 
 			.icon.major:before {
 				font-size: 2.25em;
@@ -4145,4 +4151,16 @@ input, select, textarea {
 	.technology-img.react{
 		margin-top: 20px;
     	width: 6em;
+	}
+	.technology-img.todolist-img{
+		width: 15em;
+		transition: transform .2s;
+	}
+	.technology-img.todolist-img:hover{
+		-ms-transform: scale(1.6); /* IE 9 */
+		-webkit-transform: scale(1.6); /* Safari 3-8 */
+		transform: scale(1.6);
+	}
+	a.mywork-header{
+		border-bottom: none;
 	}
